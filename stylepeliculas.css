@@ -1,0 +1,86 @@
+body{
+    background-image: url(./archivos/pexels-serena-koi-6337074.jpg);
+    background-size: 100%;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+}
+header{
+    display: flex;
+    min-height: 70px;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+nav ul{
+    margin: 10px;
+    margin-right: 54px;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+nav li{
+    margin-top: 10px;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+a{
+    display: flex;
+    text-decoration: none;
+    color: whitesmoke;
+    align-items: center;
+}
+a img{
+    height: 60px;
+    width: 90px;
+    margin-right: 10px;
+}
+nav a:hover{
+    color: rgb(48, 227, 239);
+}
+
+h2 {
+	color: rgb(156, 244, 220);
+	padding: 10px;
+}
+
+img{
+	width: 250px;
+	height: 279px;
+}
+main{
+	display: flex;
+	margin: 50px;
+	background-color: rgb(0, 0, 35);
+}
+p {
+	color: white;
+	margin: 15px;
+}
+section{
+	align-items: center;
+	padding: 10px;
+}
+h4{
+	margin: 15px;
+	color: gray;
+}
+h5{
+	margin: 15px;
+	color: rgb(255, 60, 0);
+}
+
+@media (max-width:740px){
+    header{
+        flex-direction: column;
+    }
+    nav{
+        padding: 10px 0px;
+    };
+}
